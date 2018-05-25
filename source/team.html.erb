@@ -1,0 +1,18 @@
+---
+title: Le Wagon - Team
+---
+
+<div class="container">
+  <div class="team">
+    <h2>Meet the team!</h2>
+    <ul class="list-inline text-center">
+      <% ["bdlb77","rhosyn","jasonhbegleiter"].each do |teammate|  %>
+      <li>
+        <h3><%= teammate.capitalize %></h3>
+        <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{teammate}", class: "img-circle", style: "width: 200px;"  %>
+      </li>
+    <% end %>
+    </ul>
+  </div>
+
+</div>
