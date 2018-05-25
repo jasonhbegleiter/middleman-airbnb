@@ -6,22 +6,22 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
-    <title>Le Wagon - Team</title>
-    <link href="stylesheets/application-8260e4ce.css" rel="stylesheet" />
-    <script src="javascripts/application-93de88c9.js"></script>
-    <link href="images/favicon-f15af148.png" rel="icon" type="image/png" />
+    <title>Le Wagon - Middleman - <%= data.flats[owner].capitalize %></title>
+    <link href="../stylesheets/application-8260e4ce.css" rel="stylesheet" />
+    <script src="../javascripts/application-93de88c9.js"></script>
+    <link href="../images/favicon-f15af148.png" rel="icon" type="image/png" />
   </head>
   <body>
     <div class="navbar-wagon">
   <!-- Logo -->
   <a href="/" class="navbar-wagon-brand">
-    <!-- <img src="images/logo-acc9c0ec.png" alt="logo"> -->
-    <img src="images/logo-acc9c0ec.png" id="logo" alt="Logo" />
+    <!-- <img src="images/logo.png" alt="logo"> -->
+    <img src="../images/logo-acc9c0ec.png" id="logo" alt="Logo" />
   </a>
 
   <!-- Right Navigation -->
   <div class="navbar-wagon-right hidden-xs hidden-sm">
-    <a href="team.html" class="navbar-wagon-item navbar-wagon-link">Team</a>
+    <a href="../team.html" class="navbar-wagon-item navbar-wagon-link">Team</a>
 
     <a href="" class="navbar-wagon-item navbar-wagon-link">Trips</a>
     <a href="" class="navbar-wagon-item navbar-wagon-link">Messages</a>
@@ -44,7 +44,7 @@
     <div class="dropdown">
       <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
       <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-        <li>   <a href="team.html" class="navbar-wagon-item navbar-wagon-link">Team</a></li>
+        <li>   <a href="../team.html" class="navbar-wagon-item navbar-wagon-link">Team</a></li>
         <li><a href="#">Trips</a></li>
         <li><a href="#">Messagese</a></li>
       </ul>
@@ -53,25 +53,16 @@
 </div>
 
     <div class="container">
-  <div class="team">
-    <h2>Meet the team!</h2>
-    <ul class="list-inline text-center">
-      <li>
-        <h3>Bdlb77</h3>
-        <img src="https://kitt.lewagon.com/placeholder/users/bdlb77" class="img-circle" style="width: 200px;" alt="Bdlb77" />
-      </li>
-      <li>
-        <h3>Rhosyn</h3>
-        <img src="https://kitt.lewagon.com/placeholder/users/rhosyn" class="img-circle" style="width: 200px;" alt="Rhosyn" />
-      </li>
-      <li>
-        <h3>Jasonhbegleiter</h3>
-        <img src="https://kitt.lewagon.com/placeholder/users/jasonhbegleiter" class="img-circle" style="width: 200px;" alt="Jasonhbegleiter" />
-      </li>
-    </ul>
+  <div class="header">
+    <img src="https://kitt.lewagon.com/placeholder/cities/paris" style="width:80vw; height:40vh; margin: 0 auto" alt="Paris" />
   </div>
-
 </div>
+  <div class="contents" style="padding: 40px; width: 60vw; height: 150px; margin: 0 auto">
+    <p>Sebastien's home</p>
+    <p>Charming room in Montmartre</p>
+    <p>Wifi: false</p>
+    <p>Beer Included: true</p>
+  </div>
 
     <div class="footer">
   <div class="footer-links">
