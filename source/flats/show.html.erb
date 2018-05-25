@@ -1,0 +1,15 @@
+---
+title: Le Wagon - Middleman - <%= data.flats[owner].capitalize %>
+---
+
+<div class="container">
+  <div class="header">
+    <%= image_tag "https://kitt.lewagon.com/placeholder/cities/#{data.flats[owner].city_slug}", :style => "width:80vw; height:40vh; margin: 0 auto" %>
+  </div>
+</div>
+  <div class="contents" style="padding: 40px; width: 60vw; height: 150px; margin: 0 auto">
+    <p><%= data.flats[owner].name %></p>
+    <p><%= data.flats[owner].description %></p>
+    <p>Wifi: <%=  data.flats[owner].wifi.to_s %></p>
+    <p>Beer Included: <%= data.flats[owner].beer_included.to_s %></p>
+  </div>
